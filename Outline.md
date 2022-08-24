@@ -8,8 +8,24 @@
 ## Week 2
 - string interpretation
 - function
+    - scope
+    - hoisted variables
 - inline functions or expressions as anonymous or named 
 - Working with data
+- Arrays https://www.w3schools.com/js/js_arrays.asp
+    - Push / Pop https://www.w3schools.com/js/js_array_methods.asp
+    - Join
+    - Split
+    - Concat
+    - Spread
+    - Sorting https://www.w3schools.com/js/js_array_sort.asp
+        - Simple
+        - Function
+        - Nested
+    - Mapping
+    - Filtering
+    - Reducing
+## Week 3
 - Objects
     - Properties
     - Coping
@@ -17,20 +33,6 @@
         - Object
         - Spread
 
-## Week 3
-- Arrays
-    - Stacks and Queues
-    - Push / Pop
-    - Concat
-    - Spread
-    - Sorting
-        - Simple
-        - Function
-        - Nested
-    - Mapping
-    - Filtering
-    - Reducing
-    
 ### Lessons
 - Sort data using simple method
 - Sort data in by last name then first name
