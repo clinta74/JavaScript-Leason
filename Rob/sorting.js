@@ -1,4 +1,4 @@
-import { persons } from '../data/persons.js';
+import { persons } from './persons.js';
 
 console.log(persons);
 
