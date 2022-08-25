@@ -8,9 +8,9 @@
 ## Week 2
 - string interpretation
 - function
-    - scope
-    - hoisted variables
-- inline functions or expressions as anonymous or named 
+    - scope https://www.w3schools.com/js/js_hoisting.asp
+    - hoisted variables https://www.w3schools.com/js/js_hoisting.asp
+- inline functions or expressions as anonymous or named https://www.w3schools.com/js/js_arrow_function.asp
 - Working with data
 - Arrays https://www.w3schools.com/js/js_arrays.asp
     - Push / Pop https://www.w3schools.com/js/js_array_methods.asp
