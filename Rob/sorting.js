@@ -62,3 +62,6 @@ console.log(persons);
 
 // Exercise 7
 // Using findIndex and array spread update the amount of person with id 6 to 345 creating a new list that keeps the same order of items in the list.
+
+// Exercise 8
+// Using map create a new array where first and last name are combined into one string like last, first name.
