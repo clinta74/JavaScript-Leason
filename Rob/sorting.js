@@ -13,18 +13,44 @@ console.log(persons);
 // Exercise 1
 // Sort the persons list by last name
 
+  //persons.sort((a, b) => a.lastName.localeCompare(b.lastName));
+  //console.log(persons);
 
 // Exercise 2
 // Sort the persons list by last name and a secondary sort by first name.
 
+    //persons.sort((a, b) => a.lastName.localeCompare(b.lastName));
+    //persons.sort((a,b) => a.firstName.localeCompare(b.firstName));
+    //console.log(persons);
 
 // Exercise 3
 // Using push add a new person to the list.
-
+    //const persons = 
+    //persons.push(
+//{   
+   // id: '11',
+    //firstName: 'Robert',
+    //lastName: 'Andrews',
+    //email: 'funnymonkie1993@gmail.com',
+    //amount: '200.13'
+//}
+   // )
+//console.log(persons);
 
 // Exercise 4
 // Using concat add a new person to the end list without changing the orginal list.
 
+//const newNames = (    
+   // {
+   // id: '11',
+   // firstName: 'Clint',
+   // lastName: 'Andrews',
+   // email: 'candrews@pollyspeople.net',
+   //amount: '500.00',
+    
+//});
+//persons.concat(persons,newNames);
+//console.log(persons);
 
 // Exercise 5
 // Using array spread add a new person to the end list without changing the orginal list.
