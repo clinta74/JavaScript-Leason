@@ -32,19 +32,27 @@
     - Appending Data
         - Object
         - Spread
-
-### Lessons
-- Sort data using simple method
-- Sort data in by last name then first name
-- Sum the values in a array
-- Find the mean
-- Find the average
-
+- Functions working together
 ## Week 4
 - libraries
 - modules
     - import vs required
+- modular formats
+    - commonjs
+    - moduels
+    - amd
+- bundlers
+    - webpack
+    - parcel
+    - rollup
+    - typescript compiler
 
-
-# Ideas
+## Week 5
+- Promises
+    - then
+    - catch
+    - finally
+    - resovle / failed
+- Async / Await
+- try / catch / finally
 
