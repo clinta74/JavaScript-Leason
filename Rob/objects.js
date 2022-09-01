@@ -34,7 +34,7 @@ const obj3 = {
 // Create a function call sumAmount that takes a number and person object and returns the sum of
 // number and the person amount property.
 
-// Exercise 8
+// Exercise 8 https://www.w3schools.com/js/js_array_iteration.asp
 // Using the sumAmount function and the Array.reduce method write a function called sumPersonsReduce
 // that takes the array of persons and returns the sum of all the amounts. Save the results to a variable
 // and console log the variable.
@@ -47,7 +47,7 @@ const obj3 = {
 // Using the sumPersonsReduce function write a function called medianMeanPersonsAmountoop that returns
 // the median and the mean of all of the amounts.
 
-// Exercise 11
+// Exercise 11 https://www.w3schools.com/js/js_objects.asp
 // Create a new person object call exercise11. Set the first and last name to some value. Add a function to
 // the object called fullName that returns the last, first name of that object. Call the method and log the
 // result
