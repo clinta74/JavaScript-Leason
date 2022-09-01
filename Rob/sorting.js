@@ -19,17 +19,17 @@ import { persons } from './persons.js';
 
 // Exercise 1
 // Sort the persons list by last name
-    // //const persons1 = persons.sort((a, b) => {
-    //    // if (a.lastName < b.lastName){
-    //     return -1;
-    // }
-    //     if (a.lastName > b.lastName){
-    //         return 1;
-    //     }
-    // return 0;
-    // });
-  //persons.sort((a, b) => a.lastName.localeCompare(b.lastName));
-  //console.log(persons1);
+    const persons1 = persons.sort((a, b) => {
+       if (a.lastName < b.lastName){
+        return -1;
+    }
+        if (a.lastName > b.lastName){
+            return 1;
+        }
+    return 0;
+    });
+  persons.sort((a, b) => a.lastName.localeCompare(b.lastName));
+  console.log(persons1);
 
 // Exercise 2
 // Sort the persons list by last name and a secondary sort by first name.
