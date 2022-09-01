@@ -50,4 +50,4 @@ const obj3 = {
 // Exercise 11
 // Create a new person object call exercise11. Set the first and last name to some value. Add a function to
 // the object called fullName that returns the last, first name of that object. Call the method and log the
-// resutl
+// result
