@@ -19,3 +19,4 @@ Create a new app call app-2 not using create-react-app and duplicate the same ap
 - Show only one person at a time
 - Track the index of the person you want to show using React setState.
 - Add buttons next and prev to navigate to from one person to the next using the button element and the onclick event.
+- Disable the buttons based upon if there is a next or previous.
