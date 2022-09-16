@@ -1,5 +1,5 @@
 import { persons } from './persons.js';
-
+import _ from 'lodash'
 //console.log(persons);
 // let myArray = ['Jim', 'Bob', 'Steve'];
 // const myArray2 = ['Dave'];
@@ -19,18 +19,19 @@ import { persons } from './persons.js';
 
 // Exercise 1
 // Sort the persons list by last name
-    const persons1 = persons.sort((a, b) => {
-       if (a.lastName < b.lastName){
-        return -1;
-    }
-        if (a.lastName > b.lastName){
-            return 1;
-        }
-    return 0;
-    });
-  persons.sort((a, b) => a.lastName.localeCompare(b.lastName));
-  console.log(persons1);
-
+//     const persons1 = persons.sort((a, b) => {
+//        if (a.lastName < b.lastName){
+//         return -1;
+//     }
+//         if (a.lastName > b.lastName){
+//             return 1;
+//         }
+//     return 0;
+//     });
+//   persons.sort((a, b) => a.lastName.localeCompare(b.lastName));
+  
+ const personsnew = _.sortBy(persons , person => person.lastName);
+ console.log(personsnew);
 // Exercise 2
 // Sort the persons list by last name and a secondary sort by first name.
 // const persons2 = persons.sort((a, b) => {

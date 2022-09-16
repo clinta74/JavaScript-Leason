@@ -6,7 +6,7 @@
 
 - In App.tsx import the persons data.
 - Create a ul element replacing the other app contents.
-- Loop through the data passing each item to a new component called Person inside the ul element.
+- Loop through the data passing each item to a new component called PersonItem inside the ul element.
 - Create a new file called person.tsx and create a new component called
 - The Person component should list out using a li item for the Persons first and last name.
 - In the App.tsx after the list add a field that is a sum of all of the persons amounts.

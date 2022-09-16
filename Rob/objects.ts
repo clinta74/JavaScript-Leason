@@ -1,4 +1,7 @@
-import { persons } from './persons.js';
+
+//import { persons } from './persons.js';
+
+import { Person, persons } from "./persons"
 
 const obj1 = {
     a: "obj 1 prop a",
@@ -82,8 +85,10 @@ const obj3 = {
 // Create a function called sumAmount that takes a number and person object and returns the sum of
 // number and the person amount property.
 
-function sumAmount(totalAmount, person) {
+export function sumAmount(totalAmount : number , person : Person) {
+    if(typeof person.amount === "number")
     return totalAmount + person.amount
+    else return totalAmount
 };
 
 // const result = sumAmount(5 , persons[0]);
@@ -95,7 +100,7 @@ function sumAmount(totalAmount, person) {
 // that takes the array of persons and returns the sum of all the amounts. Save the results to a variable
 // and console log the variable.
 
-function sumPersonsReduce(persons1) {
+export default function sumPersonsReduce(persons1 : Person[]) {
     let sum = persons1.reduce(sumAmount, 0)
     return sum
 };
@@ -106,7 +111,7 @@ function sumPersonsReduce(persons1) {
 // Not using the sumAmount function write a function called sumPersonsLoop using a for loop that uses
 // a variable out of scope to accumulate the total and returns it when the loop is complete.
 
-function sumPersonLoop(persons2) {
+export function sumPersonLoop(persons2 : Person[]) {
     let sum = 0;
     for (let i = 0; i < persons2.length; i++) {
         sum += persons2[i].amount;
@@ -120,13 +125,13 @@ function sumPersonLoop(persons2) {
 // Using the sumPersonsReduce function write a function called medianMeanPersonsAmount that returns
 // the median and the mean of all of the amounts.
 
-function averagePersonAmount(persons3) {
+export function averagePersonAmount(persons3 : Person[]) {
     return sumPersonsReduce(persons3) / persons3.length;
 };
 // const average = averagePersonAmount(persons);
 // console.log(average);
 
-function medianPersonsAmount(persons4) {
+export function medianPersonsAmount(persons4 : Array<Person>) {
     const persons5 = persons4.sort((a, b) => {
         if (a.amount < b.amount) {
             return -1;
@@ -146,15 +151,15 @@ function medianPersonsAmount(persons4) {
     }
 
 };
-persons.push(
-    {
-        id: '11',
-        firstName: 'Robert',
-        lastName: 'Andrews',
-        email: 'funnymonkie1993@gmail.com',
-        amount: 200.13
-    }
-)
+// persons.push(
+//     {
+//         id: '11',
+//         firstName: 'Robert',
+//         lastName: 'Andrews',
+//         email: 'funnymonkie1993@gmail.com',
+//         amount: 200.13
+//     }
+// )
 
 // const median = medianPersonsAmount(persons);
 // console.log(median);
@@ -172,16 +177,16 @@ const exercise11 =
     lastName: 'Andrews',
     email: 'funnymonkie1993@gmail.com',
     amount: 200.13,
-    fullName: function() {
+    fullName: function () {
         return (this.lastName + ", " + this.firstName)
     }
 }
 
-console.log(exercise11.fullName())
+// console.log(exercise11.fullName())
 
 
-class exercise12 {
-    
-    
-}
-const myobject = new exercise12()
+// class exercise12 {
+
+
+// }
+// const myobject = new exercise12()

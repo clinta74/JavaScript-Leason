@@ -1,5 +1,12 @@
+export interface Person{
+  id: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  amount: number;
+};
 
-export const persons = [
+export const persons : Person[] = [
   {
     id: '1',
     firstName: 'Caydence',
