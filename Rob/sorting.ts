@@ -110,8 +110,8 @@ import _ from 'lodash'
 
 // Exercise 8
 // Using map create a new array where first and last name are combined into one string like last, first name.
-// const persons8 = persons.map(person =>({
-//     name: person.lastName +', ' + person.firstName
-// }));
-// console.log(persons8)
+const persons8 = persons.map(person =>({
+    name: person.lastName +', ' + person.firstName
+}));
+console.log(persons8)
 
